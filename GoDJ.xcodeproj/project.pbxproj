@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4D05111D4E563B00BACF72 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D05101D4E563B00BACF72 /* Song.swift */; };
+		3B4D05131D4E582700BACF72 /* CurrentSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D05121D4E582700BACF72 /* CurrentSongViewController.swift */; };
 		3B7D5CE41D4877890011D5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D5CE31D4877890011D5D4 /* AppDelegate.swift */; };
 		3B7D5CE61D4877890011D5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D5CE51D4877890011D5D4 /* ViewController.swift */; };
 		3B7D5CE91D4877890011D5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D5CE71D4877890011D5D4 /* Main.storyboard */; };
 		3B7D5CEB1D4877890011D5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D5CEA1D4877890011D5D4 /* Assets.xcassets */; };
 		3B7D5CEE1D4877890011D5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D5CEC1D4877890011D5D4 /* LaunchScreen.storyboard */; };
+		3BED577C1D4D7CAA005ED7A5 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED577B1D4D7CAA005ED7A5 /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4D05101D4E563B00BACF72 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		3B4D05121D4E582700BACF72 /* CurrentSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSongViewController.swift; sourceTree = "<group>"; };
 		3B7D5CE01D4877890011D5D4 /* GoDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7D5CE31D4877890011D5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7D5CE51D4877890011D5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		3B7D5CEA1D4877890011D5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7D5CED1D4877890011D5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7D5CEF1D4877890011D5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BED577B1D4D7CAA005ED7A5 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				3B7D5CE31D4877890011D5D4 /* AppDelegate.swift */,
 				3B7D5CE51D4877890011D5D4 /* ViewController.swift */,
+				3BED577B1D4D7CAA005ED7A5 /* BaseTabBarController.swift */,
+				3B4D05121D4E582700BACF72 /* CurrentSongViewController.swift */,
+				3B4D05101D4E563B00BACF72 /* Song.swift */,
 				3B7D5CE71D4877890011D5D4 /* Main.storyboard */,
 				3B7D5CEA1D4877890011D5D4 /* Assets.xcassets */,
 				3B7D5CEC1D4877890011D5D4 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4D05111D4E563B00BACF72 /* Song.swift in Sources */,
 				3B7D5CE61D4877890011D5D4 /* ViewController.swift in Sources */,
+				3B4D05131D4E582700BACF72 /* CurrentSongViewController.swift in Sources */,
 				3B7D5CE41D4877890011D5D4 /* AppDelegate.swift in Sources */,
+				3BED577C1D4D7CAA005ED7A5 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				3B7D5CF41D4877890011D5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

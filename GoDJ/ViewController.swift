@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         
         label.text = "This is more text!"
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        label.text = "This is a third text block"
+        print("this happened")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
